@@ -1,4 +1,4 @@
-# Workshop Tepic
+# Landing page
 
 ## Instructions
 
