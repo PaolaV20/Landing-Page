@@ -1,58 +1,51 @@
+footer {
+    background-color: $color-blue;
+    color: #fff;
+    display: flex;
+    font-family: $font-1;
+    justify-content: center;
 
-  footer {
-     
-    background: white;
-   }
-       
-   .flexbox-container {
-      display: -ms-flex;
-      display: -webkit-flex;
-      display: flex;
-  }
-  
-  .flexbox-container > div {
-          width: 50%;
-          padding: 120px;
-    
-  }
-  .flexbox-container > div:first-child {
-          margin-right: 10px;
-  }
-
-
-
-
-  .footer-left{
-     font-size: $font-size;
-     line-height: $line-height;
-     color: $color-grey1;
-     font-family: $font-footer;
-  }
-
-  .footer-left img{
-        padding-bottom: 10px;
-        
-     }
-
-  .footer-rigth{
+    .footer-content {
+        flex: 1;
+        padding: 50px 30px;
         text-align: center;
-        font-size: $font-size;
-        line-height: $line-height;
-        color: $color-grey1;
-        font-family: $font-footer;
+
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        span {
+            color: $color-button;
+        }
+        
+        .footer-icons {
+            i {
+                border: 2px solid #fff;
+                border-radius: 50%;
+                margin: 0 5px;
+                padding: 10px;
+                width: 40px;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }
 
-  .help{
-        color: $color-gold3;
-  }
-
-  .gmail a{
-        
-        color: $color-gold3;
-        padding-top: 20px;
-  }
-
-  .copyright{
-          color: $color-gold3;
-          padding-top: 15px;
-  }
+#copyright {
+    background-color: $color-copyright;
+    color: #fff;
+    font-family: $font-1;
+    font-size: 13px;
+    padding: 20px 0;
+    text-align: center;
+}

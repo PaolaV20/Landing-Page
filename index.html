@@ -4,203 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Heebo|Josefin+Sans&display=swap" rel="stylesheet"> 
-    <title>Workshop</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <script src="https://kit.fontawesome.com/511d3059de.js" crossorigin="anonymous"></script>
+    
+    <title>Landing page</title>
     <script src="https://unpkg.com/lodash@4.16.6"></script>
   </head>
   <body>
 
-    <!--  Navbar section starts -->
-   <nav class="navbar_main">
-    <input class="change-hamburger" type="checkbox" id="change-hamburguer" /> 
-    <a class="hamburguer" href="#">
-      <span></span>
-      <label for="change-hamburguer"></label>
-    </a>
-    <div class="logo">
-      <img src="design/images/logo.png" alt="">
-    </div>
-    <ul class="menu">
-      <li class="item"><a href="#">Product</a></li>
-      <li class="item"><a href="#">Features</a></li>
-      <li class="item"><a href="#">Reviews</a></li>
-      <li class="item"><a href="#">Pricing</a></li>
-      <li class="item"><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <!--terminar el navbar y crear el responsive design-->
-    <!--  Navbar section ends-->
-    
-   
-
-
-    <!--      Hero section starts            -->
-    <div class="hero">
-      <img src="./src/images/hero.jpg" alt="">
-      <div class="herophs">
-        <p class="herophTitle">
-          Wireless Bluetooth <br> Speakers of tomorrow
-        </p>
-        <p class="herophContent">
-          Beoplay A1 bluetooth speakers image in the left is owned by Bang and Olufsen <br>
-          and is released under creative commons lisence. So, I downloaded it and <br>
-          displayed it here in my demo. <br><br>
-        </p>
-        <button class="heroButton" type="button">KNOW MORE</button>
-      </div>
-    </div>
-    <!--      Hero section ends-->
-
-
-
-
-    <!--      Comment section starts            -->
-    <section class="comment">
-        <div class="text">
-          <h3 class="h3">"Best in class bluetooth speaker in the market. Though A1 has smooth round edges it is built with the cuttin edge technology."</h3>
-        </div>
-        <div class="text">
-          <p>- The Verge</p>
-        </div>
-    </section>
-    <!--      Comment section ends-->
-
-
-    
-    
-    <!--      Features section starts-->
-    <div class="features">
-        <img src="./src/images/details.jpg" alt="">
-        <div class="featuresph">
-          <p class="featuresphTitle">
-            Features and Specifications
-          </p>
-          <p class="featuresphContent">
-            <ul>
-              <li>Firstly, most elegant and beautiful design</li>
-              <li>36 Hours battery Backup</li>
-              <li>Bluetooth 40 Upto 20 Feet & Microphhone upto 10 feet</li>
-              <li>Highly Durable Body and Strap</li>
-              <li>Suports Siri, Cortana and Gogle Voice</li>
-              <li>Adroid, Apple and Windows Compatible</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    <!--      Features section ends-->
-
-
-
-
-    <!--       Buy-now section starts-->
-    <div class="buynow">
-        <img src="./src/images/buy.jpeg" alt="">
-        <div class="buynowphs">
-          <p class="buynowph">
-            With A1 when you Play the <br>
-            music you'll feel the rhythm <br>
-            of heavens passing through <br>
-            chimes of your freedom.
-          </p>
-          <button class="buynowButton" type="button">BUY NOW</button>
-        </div>
-      </div>
-    <!--       Buy-now section ends-->
-
-
-
-
-    <!--       Testimony section starts-->
-      <section class="testimony">
-        <div class="image">
-          <img src="/src/images/icon.png" alt="">
-        </div>
-        <div class="text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut culpa ipsa eius consequatur, quidem facere magnam saepe commodi expedita natus eveniet aspernatur reiciendis nobis. Nulla odit commodi illo recusandae error!</p>
-        </div>
-        <div class="user">
-          <p>- Robert Hammer</p>
-          <p>Chairman Hammer Copyright</p>
-        </div>
-        <div class="stars" id="stars">
-          
-        </div>
-      </section>
-    <!--       Testimony section ends-->
-
-
-
-
-    <!--       Bluetooth section starts-->
-    <div class="container-bluetooth">
-
-      <div class="bluetooth-text">
-        <div class="bluetooth-first">
-            <h2 class="title_bluetooth">A1 Bluetooth Speakers</h2>
-            <p class="compatible">Android and iOS Compatible</p>
-        </div>
-            <p>Slook and elegent Bluetooth Speakers you will love to carry around. Order and Get them for a cool price on Amazon today.</p>
-        
-            <img src="design/images/amazon-logo.png" alt="">
-            
-            <p class="price">at Just $99.98</p>
-
+    <!-- *****************************
+     INICIO SECTION PORTFOLIO
+    ****************************** -->
+    <section id="portfolio">
+      <div class="portfolio-title">
+        <h1>Portfolio</h1>
+        <img src="./src/images/estrella.png" alt="">
+        <hr>
       </div>
 
-        <div class="bluetooth-img">
+      <div class="portfolio-content">
+        <div class="portfolio-content-article trigger">
+          <img src="./src/images/cabin.png" alt="">
 
-          <img src="design/images/pricing-image.jpg" alt="">
-
+          <div class="after"> + </div>
         </div>
         
-      
-    </div>
-    <!--       Bluetooth section ends-->
+        <div class="portfolio-content-article trigger">
+          <img src="./src/images/cake.png" alt="">
 
+          <div class="after"> + </div>
+        </div>
 
+        <div class="portfolio-content-article trigger">
+          <img src="./src/images/circus.png" alt="">
 
+          <div class="after"> + </div>
+        </div>
 
-    <!--       Subscribe section starts-->
-    <section class="subscribe">
-      <img src="src/images/buy.jpeg" alt="" srcset="">
+        <div class="portfolio-content-article trigger">
+          <img src="./src/images/game.png" alt="">
 
-      <div class="container-subs">
-        <h1>Love offers and discounts?<br>Subscribe and save.</h1>
-        <p>Don't worry, we won't need your credit card details. Just enter your email address and we'll take care of the rest.</p>
-        
-        <form action="">
-          <input type="text" name="email" id="email">
-          <a href="#">Subscribe</a>
-        </form>
+          <div class="after"> + </div>
+        </div>
+
+        <div class="portfolio-content-article trigger">
+          <img src="./src/images/safe.png" alt="">
+
+          <div class="after"> + </div>
+        </div>
+
+        <div class="portfolio-content-article trigger">
+          <img src="./src/images/submarine.png" alt="">
+
+          <div class="after"> + </div>
+        </div>
       </div>
     </section>
-    <!--       Subscribe section ends-->
 
+    <!-- *****************************
+     FINAL SECTION PORTFOLIO
+    ****************************** -->
 
-    <!--       Footer section starts-->
-    <!--En el footer crear estilos -->
-    
+    <!-- *****************************
+     INICIO FOTTER PORTFOLIO
+    ****************************** -->
+
     <footer>
-        <div class="flexbox-container">
-           <div class="footer-left">
-             <img src="design/images/logo.png" alt="">
-             <p>A technology startup based somewhere in the world.
-                 making the finest bluetooth speakers ever made.
-                 You'will know our location if you really love us.</p>
-             <p class="copyright">Copyright © 2016 Advent Inc. All Rights Reserved</p>
-           </div>
-           <div class="footer-rigth">
-             <img src="design/images/comments.png" alt="">
-              <h2 class="help">Need Help ?</h2>
+      <div class="footer-content">
+        <h1>LOCATION</h1>
 
-              <p>Contact our 24/7 customer support if you have any questions. We will help you out</p>
-              <p class="gmail" ><a href="">support@gmail.com</a></p>
-           </div>
+        <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
+      </div>
+
+      <div class="footer-content">
+        <h1>AROUND THE WEB</h1>
+
+        <div class="footer-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-fw fa-dribbble"></i>
         </div>
-     </footer>
-    <!--       Footer section ends    -->
+      </div>
 
+      <div class="footer-content">
+        <h1>ABOUT FREELANCER</h1>
+
+        <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+      </div>
+    </footer>
+
+    <section id="copyright">
+      <p>Copyright © We Are UV 2019</p>
+    </section>
+
+    <!-- *****************************
+     FINAL FOTTER PORTFOLIO
+    ****************************** -->
+
+    <!-- *****************************
+     INICIO VENTANA MODAL PORTAFOLIO
+    ****************************** -->
+    <button class="trigger">Click here to trigger the modal!</button>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <h1>Hello, I am a modal!</h1>
+        </div>
+    </div>
+
+    <!-- *****************************
+     FINAL VENTANA MODAL PORTAFOLIO
+    ****************************** -->
   </body>
 </html>
